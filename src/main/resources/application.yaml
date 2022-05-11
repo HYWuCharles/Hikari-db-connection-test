@@ -1,0 +1,16 @@
+server:
+  port: 12000
+
+logging:
+  level:
+    org.springframework: trace
+    com.zaxxer.hikari: trace
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/testdb
+    password: 960908
+    username: root
+  jpa:
+    open-in-view: true
